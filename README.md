@@ -1,4 +1,4 @@
-# messagebus
+# messagebus  [![](https://jitpack.io/v/aliletter/messagebus.svg)](https://jitpack.io/#aliletter/messagebus)
 MessageBus is a android framework for message transporting , for example , activity and activity , activity and fragment , so on .
 # How to
 To get a Git project into your build:
@@ -15,7 +15,7 @@ Add it in your root build.gradle at the end of repositories:
 ## Step 2. Add the dependency
 
 	dependencies {
-	        compile 'com.github.mr-absurd:messagebus:v1.0.4'
+	        compile 'com.github.aliletter:messagebus:v1.0.4'
 	}
   
 # Instructions
