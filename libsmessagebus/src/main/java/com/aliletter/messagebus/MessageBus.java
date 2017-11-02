@@ -1,10 +1,10 @@
-package com.absurd.messagebus;
+package com.aliletter.messagebus;
 
 import android.os.Handler;
 import android.os.Looper;
 
-import com.absurd.messagebus.base.Subscribe;
-import com.absurd.messagebus.base.ThreadMode;
+import com.aliletter.messagebus.base.Subscribe;
+import com.aliletter.messagebus.base.ThreadMode;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -20,8 +20,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * Author: mr-absurd
- * Github: http://github.com/mr-absurd
+ * Author: aliletter
+ * Github: http://github.com/aliletter
  * Data: 2017/8/16.
  */
 

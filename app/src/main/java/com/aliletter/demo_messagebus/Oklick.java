@@ -1,4 +1,4 @@
-package com.absurd.demo_messagebus;
+package com.aliletter.demo_messagebus;
 
 /**
  * Author: mr-absurd

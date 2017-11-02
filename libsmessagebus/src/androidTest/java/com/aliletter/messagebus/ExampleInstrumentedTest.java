@@ -1,4 +1,4 @@
-package com.absurd.messagebus;
+package com.aliletter.messagebus;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

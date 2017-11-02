@@ -1,4 +1,4 @@
-package com.absurd.demo_messagebus;
+package com.aliletter.demo_messagebus;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,9 +6,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
-import com.absurd.messagebus.MessageBus;
-import com.absurd.messagebus.base.Subscribe;
-import com.absurd.messagebus.base.ThreadMode;
+import com.aliletter.messagebus.MessageBus;
+import com.aliletter.messagebus.base.Subscribe;
+import com.aliletter.messagebus.base.ThreadMode;
 
 public class MainActivity extends AppCompatActivity {
 

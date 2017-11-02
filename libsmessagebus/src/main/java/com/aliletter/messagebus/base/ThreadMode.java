@@ -1,8 +1,8 @@
-package com.absurd.messagebus.base;
+package com.aliletter.messagebus.base;
 
 /**
- * Author: mr-absurd
- * Github: http://github.com/mr-absurd
+ * Author: aliletter
+ * Github: http://github.com/aliletter
  * Data: 2017/8/19.
  */
 

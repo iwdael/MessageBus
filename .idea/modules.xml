@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MessageBus.iml" filepath="$PROJECT_DIR$/MessageBus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MessageBus.iml" filepath="$PROJECT_DIR$/MessageBus.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libsmessagebus/libsmessagebus.iml" filepath="$PROJECT_DIR$/libsmessagebus/libsmessagebus.iml" />
       <module fileurl="file://$PROJECT_DIR$/libsmessagebus/libsmessagebus.iml" filepath="$PROJECT_DIR$/libsmessagebus/libsmessagebus.iml" />
     </modules>
   </component>

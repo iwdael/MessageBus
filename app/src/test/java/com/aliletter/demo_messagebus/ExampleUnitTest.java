@@ -1,4 +1,4 @@
-package com.absurd.messagebus;
+package com.aliletter.demo_messagebus;
 
 import org.junit.Test;
 

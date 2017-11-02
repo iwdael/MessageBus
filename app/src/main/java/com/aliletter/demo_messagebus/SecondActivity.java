@@ -1,13 +1,12 @@
-package com.absurd.demo_messagebus;
+package com.aliletter.demo_messagebus;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.util.Log;
 import android.view.View;
 
-import com.absurd.messagebus.MessageBus;
+import com.aliletter.messagebus.MessageBus;
 
 
 /**

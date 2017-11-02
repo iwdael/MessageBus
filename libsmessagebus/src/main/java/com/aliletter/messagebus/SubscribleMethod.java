@@ -1,14 +1,14 @@
-package com.absurd.messagebus;
+package com.aliletter.messagebus;
 
 
 
-import com.absurd.messagebus.base.ThreadMode;
+import com.aliletter.messagebus.base.ThreadMode;
 
 import java.lang.reflect.Method;
 
 /**
- * Author: mr-absurd
- * Github: http://github.com/mr-absurd
+ * Author: aliletter
+ * Github: http://github.com/aliletter
  * Data: 2017/8/19.
  */
 
