@@ -1,4 +1,4 @@
-# MessageBus  [![](https://img.shields.io/badge/author-aliletter-brightgreen.svg)](https://github.com/aliletter/) [![](https://jitpack.io/v/aliletter/messagebus.svg)](https://jitpack.io/#aliletter/messagebus) [![](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/aliletter/MessageBus) [![](https://img.shields.io/github/tag/aliletter/MessageBus.svg)](https://github.com/aliletter/MessageBus) 
+# MessageBus  [![](https://img.shields.io/badge/author-aliletter-brightgreen.svg)](https://github.com/aliletter/) [![](https://jitpack.io/v/aliletter/messagebus.svg)](https://jitpack.io/#aliletter/messagebus) [![](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/aliletter/MessageBus) [![](https://img.shields.io/badge/%E8%AF%AD%E8%A8%80-English-brightgreen.svg)](https://github.com/aliletter/MessageBus) [![](https://img.shields.io/github/tag/aliletter/MessageBus.svg)](https://github.com/aliletter/MessageBus) 
 
 
 MessageBus能在任何地方发送消息，在任何地方接受消息。
