@@ -1,4 +1,4 @@
-# messagebus  [![](https://jitpack.io/v/aliletter/messagebus.svg)](https://jitpack.io/#aliletter/messagebus)
+# MessageBus  [![](https://img.shields.io/badge/author-aliletter-green.svg)](https://github.com/aliletter/) [![](https://jitpack.io/v/aliletter/messagebus.svg)](https://jitpack.io/#aliletter/messagebus) [![](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/aliletter/MessageBus) [![](https://img.shields.io/github/tag/aliletter/MessageBus.svg)](https://github.com/aliletter/MessageBus)
 MessageBus can send messages anywhere and receive messages anywhere.[中文文档](https://github.com/aliletter/MessageBus/blob/master/README_CHINESE.md)
 ## Instruction
 MessageBus must be registered where the message is received and not registered when it is not necessary to accept the message. Otherwise, a memory leak will result.
