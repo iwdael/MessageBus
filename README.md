@@ -1,5 +1,5 @@
-# MessageBus  [![](https://img.shields.io/badge/author-aliletter-brightgreen.svg)](https://github.com/aliletter/) [![](https://jitpack.io/v/aliletter/messagebus.svg)](https://jitpack.io/#aliletter/messagebus) [![](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/aliletter/MessageBus) [![](https://img.shields.io/github/tag/aliletter/MessageBus.svg)](https://github.com/aliletter/MessageBus)
-MessageBus can send messages anywhere and receive messages anywhere.[中文文档](https://github.com/aliletter/MessageBus/blob/master/README_CHINESE.md)
+# MessageBus  [![](https://img.shields.io/badge/author-aliletter-brightgreen.svg)](https://github.com/aliletter/) [![](https://jitpack.io/v/aliletter/messagebus.svg)](https://jitpack.io/#aliletter/messagebus) [![](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/aliletter/MessageBus) [![](https://img.shields.io/badge/language-%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3-brightgreen.svg)](https://github.com/aliletter/MessageBus/blob/master/README_CHINESE.md) [![](https://img.shields.io/github/tag/aliletter/MessageBus.svg)](https://github.com/aliletter/MessageBus) 
+MessageBus can send messages anywhere and receive messages anywhere. 
 ## Instruction
 MessageBus must be registered where the message is received and not registered when it is not necessary to accept the message. Otherwise, a memory leak will result.
 ### Code Sample
