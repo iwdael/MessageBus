@@ -1,25 +1,9 @@
 # messagebus  [![](https://jitpack.io/v/aliletter/messagebus.svg)](https://jitpack.io/#aliletter/messagebus)
-MessageBus is a android framework for message transporting , for example , activity and activity , activity and fragment , so on .
-# How to
-To get a Git project into your build:
-## Step 1. Add the JitPack repository to your build file
-Add it in your root build.gradle at the end of repositories:
-
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
-  
-## Step 2. Add the dependency
-
-	dependencies {
-	        compile 'com.github.aliletter:messagebus:v1.0.4'
-	}
-  
-# Instructions
-## Register messagebus where you will recieved message , such as:
+MessageBus can send messages anywhere and receive messages anywhere.
+## Instruction
+MessageBus must be registered where the message is received and not registered when it is not necessary to accept the message. Otherwise, a memory leak will result.
+### Code Sample
+Register messagebus where you will recieved message , such as:
 ```Java
  @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +14,7 @@ Add it in your root build.gradle at the end of repositories:
     }
 
 ```
-## Unregister messagebus when you need't recieving message , such as:
+Unregister messagebus when you need't recieving message , such as:
 ```Java
     @Override
     protected void onDestroy() {
@@ -38,12 +22,12 @@ Add it in your root build.gradle at the end of repositories:
         super.onDestroy();
     }
 ```
-## Send meaage in anywhere.
+Send meaage in anywhere.
 ```Java
-  MessageBus.getBus().send(Object);//Object can be a class that carries message
+  MessageBus.getBus().send(Test test);//Object can be a class that carries message
 ```
 
-## Recieve message in the method you will.
+Recieve message in the method you will.
 ```Java
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,3 +50,32 @@ Add it in your root build.gradle at the end of repositories:
         super.onDestroy();
     }
 ```
+
+
+## How to
+To get a Git project into your build:
+### Step 1. Add the JitPack repository to your build file
+Add it in your root build.gradle at the end of repositories.[click here for details](https://github.com/aliletter/CarouselBanner/blob/master/root_build.gradle.png)
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+  
+### Step 2. Add the dependency
+Add it in your application module build.gradle at the end of dependencies where you want to use.   [click here for details](https://github.com/aliletter/CarouselBanner/blob/master/application_build.gradle.png)
+```Java
+	dependencies {
+	  ...
+          compile 'com.github.aliletter:messagebus:v1.0.5'
+	}
+```	
+<br><br><br>
+## Thank you for your browsing
+If you have any questions, please join the QQ group. I will do my best to answer it for you. Welcome to star and fork this repository, alse follow me.
+<br>
+![Image Text](https://github.com/aliletter/CarouselBanner/blob/master/qq_group.png)
+
+ 

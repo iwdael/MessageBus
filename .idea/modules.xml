@@ -3,11 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MessageBus.iml" filepath="$PROJECT_DIR$/MessageBus.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MessageBus.iml" filepath="$PROJECT_DIR$/MessageBus.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\alile\Desktop\MessageBus\MessageBus.iml" filepath="C:\Users\alile\Desktop\MessageBus\MessageBus.iml" />
+      <module fileurl="file://C:\Users\alile\Desktop\MessageBus\app\app.iml" filepath="C:\Users\alile\Desktop\MessageBus\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/app.iml" filepath="$PROJECT_DIR$/example/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/libsmessagebus/libsmessagebus.iml" filepath="$PROJECT_DIR$/libsmessagebus/libsmessagebus.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libsmessagebus/libsmessagebus.iml" filepath="$PROJECT_DIR$/libsmessagebus/libsmessagebus.iml" />
+      <module fileurl="file://C:\Users\alile\Desktop\MessageBus\libsmessagebus\libsmessagebus.iml" filepath="C:\Users\alile\Desktop\MessageBus\libsmessagebus\libsmessagebus.iml" />
     </modules>
   </component>
 </project>
