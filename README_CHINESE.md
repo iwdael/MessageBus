@@ -1,6 +1,4 @@
-# MessageBus  [![](https://img.shields.io/badge/author-aliletter-brightgreen.svg)](https://github.com/aliletter/) [![](https://jitpack.io/v/aliletter/messagebus.svg)](https://jitpack.io/#aliletter/messagebus) [![](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/aliletter/MessageBus) [![](https://img.shields.io/badge/%E8%AF%AD%E8%A8%80-English-brightgreen.svg)](https://github.com/aliletter/MessageBus) [![](https://img.shields.io/github/tag/aliletter/MessageBus.svg)](https://github.com/aliletter/MessageBus) 
-
-
+# MessageBus  [![](https://jitpack.io/v/aliletter/messagebus.svg)](https://jitpack.io/#aliletter/messagebus)
 MessageBus能在任何地方发送消息，在任何地方接受消息。
 ## 使用说明
 在接受消息的地方必须注册MessageBus,不需要接受消息的时候反注册，否则会导致内存泄漏。
