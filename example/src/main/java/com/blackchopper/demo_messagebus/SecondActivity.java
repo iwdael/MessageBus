@@ -1,4 +1,4 @@
-package com.aliletter.demo_messagebus;
+package com.blackchopper.demo_messagebus;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,13 +6,14 @@ import android.support.annotation.Nullable;
 import android.util.Log;
 import android.view.View;
 
-import com.aliletter.messagebus.MessageBus;
+import com.blackchopper.messagebus.MessageBus;
 
 
 /**
- * Author: mr-absurd
- * Github: http://github.com/mr-absurd
- * Data: 2017/8/21.
+ * author  : Black Chopper
+ * e-mail  : 4884280@qq.com
+ * github  : http://github.com/BlackChopper
+ * project : MessageBus
  */
 
 public class SecondActivity extends Activity {

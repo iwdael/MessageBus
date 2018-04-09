@@ -1,15 +1,16 @@
-package com.aliletter.messagebus;
+package com.blackchopper.messagebus;
 
 
 
-import com.aliletter.messagebus.base.ThreadMode;
+import com.blackchopper.messagebus.base.ThreadMode;
 
 import java.lang.reflect.Method;
 
 /**
- * Author: aliletter
- * Github: http://github.com/aliletter
- * Data: 2017/8/19.
+ * author  : Black Chopper
+ * e-mail  : 4884280@qq.com
+ * github  : http://github.com/BlackChopper
+ * project : MessageBus
  */
 
 public class SubscribleMethod {

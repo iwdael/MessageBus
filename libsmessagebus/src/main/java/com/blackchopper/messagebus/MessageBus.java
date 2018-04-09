@@ -1,10 +1,10 @@
-package com.aliletter.messagebus;
+package com.blackchopper.messagebus;
 
 import android.os.Handler;
 import android.os.Looper;
 
-import com.aliletter.messagebus.base.Subscribe;
-import com.aliletter.messagebus.base.ThreadMode;
+import com.blackchopper.messagebus.base.Subscribe;
+import com.blackchopper.messagebus.base.ThreadMode;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -20,9 +20,10 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * Author: aliletter
- * Github: http://github.com/aliletter
- * Data: 2017/8/16.
+ * author  : Black Chopper
+ * e-mail  : 4884280@qq.com
+ * github  : http://github.com/BlackChopper
+ * project : MessageBus
  */
 
 public class MessageBus {
