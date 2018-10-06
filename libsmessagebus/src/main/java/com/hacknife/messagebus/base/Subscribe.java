@@ -1,4 +1,4 @@
-package com.blackchopper.messagebus.base;
+package com.hacknife.messagebus.base;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -6,9 +6,9 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * author  : Black Chopper
+ * author  : hacknife
  * e-mail  : 4884280@qq.com
- * github  : http://github.com/BlackChopper
+ * github  : http://github.com/hacknife
  * project : MessageBus
  */
 @Retention(RetentionPolicy.RUNTIME)

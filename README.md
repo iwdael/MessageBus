@@ -1,9 +1,9 @@
 # MessageBus  [![](https://jitpack.io/v/blackchopper/messagebus.svg)](https://jitpack.io/#blackchopper/messagebus)
-MessageBus can send messages anywhere and receive messages anywhere. [中文文档](https://github.com/blackchopper/messagebus/blob/master/README_CHINESE.md)
-## Instruction
-MessageBus must be registered where the message is received and not registered when it is not necessary to accept the message. Otherwise, a memory leak will result.
-### Code Sample
-Register messagebus where you will recieved message , such as:
+MessageBus能在任何地方发送消息，在任何地方接受消息。[English](https://github.com/blackchopper/messagebus/blob/master/README_ENGLISH.md)
+## 使用说明
+在接受消息的地方必须注册MessageBus,不需要接受消息的时候反注册，否则会导致内存泄漏。
+### 代码示例
+需要接收消息的地方注册MessageBus。
 ```Java
  @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,7 +14,7 @@ Register messagebus where you will recieved message , such as:
     }
 
 ```
-Unregister messagebus when you need't recieving message , such as:
+不需要接收消息的时候反注册MessageBus。
 ```Java
     @Override
     protected void onDestroy() {
@@ -22,12 +22,11 @@ Unregister messagebus when you need't recieving message , such as:
         super.onDestroy();
     }
 ```
-Send meaage in anywhere.
+在任意地方发送消息
 ```Java
   MessageBus.getBus().send(Test test);//Object can be a class that carries message
 ```
-
-Recieve message in the method you will.
+根据参数类型接收消息
 ```Java
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,9 +36,9 @@ Recieve message in the method you will.
         ...
     }
     
-    //ThreadMode has four menbers. the method will run in different thread if you set it.
+    //ThreadMode用来设置此方法运行的线程
     @Subscribe(ThreadMode.MAINTHREAD)
-    public void recived(Test test) {  // the name of the method will decome what you want 
+    public void recived(Test test) {  
         String id = test.getId();
         String name = test.getUsername();
     }
@@ -50,12 +49,10 @@ Recieve message in the method you will.
         super.onDestroy();
     }
 ```
-
-
-## How to
-To get a Git project into your build:
-### Step 1. Add the JitPack repository to your build file
-Add it in your root build.gradle at the end of repositories.[click here for details](https://github.com/blackchopper/CarouselBanner/blob/master/root_build.gradle.png)
+## 如何配置
+将本仓库引入你的项目:
+### Step 1. 添加JitPack仓库到Build文件
+合并以下代码到项目根目录下的build.gradle文件的repositories尾。[点击查看详情](https://github.com/blackchopper/CarouselBanner/blob/master/root_build.gradle.png)
 
 	allprojects {
 		repositories {
@@ -64,8 +61,8 @@ Add it in your root build.gradle at the end of repositories.[click here for deta
 		}
 	}
   
-### Step 2. Add the dependency
-Add it in your application module build.gradle at the end of dependencies where you want to use.   [click here for details](https://github.com/blackchopper/CarouselBanner/blob/master/application_build.gradle.png)
+### Step 2. 添加依赖
+合并以下代码到需要使用的application Module的dependencies尾。[点击查看详情](https://github.com/blackchopper/CarouselBanner/blob/master/application_build.gradle.png)
 ```Java
 	dependencies {
 	  ...
@@ -73,9 +70,7 @@ Add it in your application module build.gradle at the end of dependencies where 
 	}
 ```	
 <br><br><br>
-## Thank you for your browsing
-If you have any questions, please join the QQ group. I will do my best to answer it for you. Welcome to star and fork this repository, alse follow me.
+## 感谢浏览
+如果你有任何疑问，请加入QQ群，我将竭诚为你解答。欢迎Star和Fork本仓库，当然也欢迎你关注我。
 <br>
 ![Image Text](https://github.com/blackchopper/CarouselBanner/blob/master/qq_group.png)
-
- 

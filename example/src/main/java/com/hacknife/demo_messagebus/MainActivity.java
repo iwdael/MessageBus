@@ -1,4 +1,4 @@
-package com.blackchopper.demo_messagebus;
+package com.hacknife.demo_messagebus;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,9 +6,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
-import com.blackchopper.messagebus.MessageBus;
-import com.blackchopper.messagebus.base.Subscribe;
-import com.blackchopper.messagebus.base.ThreadMode;
+import com.hacknife.messagebus.MessageBus;
+import com.hacknife.messagebus.base.Subscribe;
+import com.hacknife.messagebus.base.ThreadMode;
 
 public class MainActivity extends AppCompatActivity {
 

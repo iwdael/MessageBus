@@ -1,10 +1,10 @@
-package com.blackchopper.messagebus;
+package com.hacknife.messagebus;
 
 import android.os.Handler;
 import android.os.Looper;
 
-import com.blackchopper.messagebus.base.Subscribe;
-import com.blackchopper.messagebus.base.ThreadMode;
+import com.hacknife.messagebus.base.Subscribe;
+import com.hacknife.messagebus.base.ThreadMode;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -20,9 +20,9 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * author  : Black Chopper
+ * author  : hacknife
  * e-mail  : 4884280@qq.com
- * github  : http://github.com/BlackChopper
+ * github  : http://github.com/hacknife
  * project : MessageBus
  */
 

@@ -1,9 +1,9 @@
-package com.blackchopper.messagebus.base;
+package com.hacknife.messagebus.base;
 
 /**
- * author  : Black Chopper
+ * author  : hacknife
  * e-mail  : 4884280@qq.com
- * github  : http://github.com/BlackChopper
+ * github  : http://github.com/hacknife
  * project : MessageBus
  */
 

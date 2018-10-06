@@ -1,15 +1,15 @@
-package com.blackchopper.messagebus;
+package com.hacknife.messagebus;
 
 
 
-import com.blackchopper.messagebus.base.ThreadMode;
+import com.hacknife.messagebus.base.ThreadMode;
 
 import java.lang.reflect.Method;
 
 /**
- * author  : Black Chopper
+ * author  : hacknife
  * e-mail  : 4884280@qq.com
- * github  : http://github.com/BlackChopper
+ * github  : http://github.com/hacknife
  * project : MessageBus
  */
 

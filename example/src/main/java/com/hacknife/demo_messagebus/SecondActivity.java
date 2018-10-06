@@ -1,4 +1,4 @@
-package com.blackchopper.demo_messagebus;
+package com.hacknife.demo_messagebus;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,13 +6,13 @@ import android.support.annotation.Nullable;
 import android.util.Log;
 import android.view.View;
 
-import com.blackchopper.messagebus.MessageBus;
+import com.hacknife.messagebus.MessageBus;
 
 
 /**
- * author  : Black Chopper
+ * author  : hacknife
  * e-mail  : 4884280@qq.com
- * github  : http://github.com/BlackChopper
+ * github  : http://github.com/hacknife
  * project : MessageBus
  */
 
