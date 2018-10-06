@@ -1,5 +1,5 @@
-# MessageBus  [![](https://jitpack.io/v/blackchopper/messagebus.svg)](https://jitpack.io/#blackchopper/messagebus)
-MessageBus can send messages anywhere and receive messages anywhere. [中文文档](https://github.com/blackchopper/messagebus/blob/master/README.md)
+# MessageBus  [![](https://jitpack.io/v/hacknife/messagebus.svg)](https://jitpack.io/#hacknife/messagebus)
+MessageBus can send messages anywhere and receive messages anywhere. [中文文档](https://github.com/hacknife/messagebus/blob/master/README.md)
 ## Instruction
 MessageBus must be registered where the message is received and not registered when it is not necessary to accept the message. Otherwise, a memory leak will result.
 ### Code Sample
@@ -55,7 +55,7 @@ Recieve message in the method you will.
 ## How to
 To get a Git project into your build:
 ### Step 1. Add the JitPack repository to your build file
-Add it in your root build.gradle at the end of repositories.[click here for details](https://github.com/blackchopper/CarouselBanner/blob/master/root_build.gradle.png)
+Add it in your root build.gradle at the end of repositories.[click here for details](https://github.com/hacknife/CarouselBanner/blob/master/root_build.gradle.png)
 
 	allprojects {
 		repositories {
@@ -65,17 +65,17 @@ Add it in your root build.gradle at the end of repositories.[click here for deta
 	}
   
 ### Step 2. Add the dependency
-Add it in your application module build.gradle at the end of dependencies where you want to use.   [click here for details](https://github.com/blackchopper/CarouselBanner/blob/master/application_build.gradle.png)
+Add it in your application module build.gradle at the end of dependencies where you want to use.   [click here for details](https://github.com/hacknife/CarouselBanner/blob/master/application_build.gradle.png)
 ```Java
 	dependencies {
 	  ...
-          compile 'com.github.blackchopper:messagebus:v1.0.6'
+          compile 'com.github.hacknife:messagebus:v1.0.6'
 	}
 ```	
 <br><br><br>
 ## Thank you for your browsing
 If you have any questions, please join the QQ group. I will do my best to answer it for you. Welcome to star and fork this repository, alse follow me.
 <br>
-![Image Text](https://github.com/blackchopper/CarouselBanner/blob/master/qq_group.png)
+![Image Text](https://github.com/hacknife/CarouselBanner/blob/master/qq_group.png)
 
  
