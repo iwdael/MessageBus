@@ -1,8 +1,8 @@
 apply plugin: 'com.android.library'
-
+apply plugin: 'com.novoda.bintray-release'
 android {
     compileSdkVersion 26
-    buildToolsVersion "26.0.1"
+
 
     defaultConfig {
         minSdkVersion 11
@@ -10,7 +10,6 @@ android {
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
     }
     buildTypes {
@@ -21,11 +20,11 @@ android {
     }
 }
 
-dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
-
-    testCompile 'junit:junit:4.12'
+publish{
+    userOrg = 'hacknife'
+    groupId = 'com.hacknife'
+    artifactId = 'messagebus'
+    publishVersion = '1.0.8'
+    desc = ''
+    website = 'https://github.com/hacknife/messagebus'
 }

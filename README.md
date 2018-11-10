@@ -1,5 +1,6 @@
-# MessageBus  [![](https://jitpack.io/v/hacknife/messagebus.svg)](https://jitpack.io/#hacknife/messagebus)
-MessageBus能在任何地方发送消息，在任何地方接受消息。[English](https://github.com/hacknife/messagebus/blob/master/README_ENGLISH.md)
+# MessageBus
+[![](https://img.shields.io/badge/platform-android-orange.svg)](https://github.com/hacknife) [![](https://img.shields.io/badge/language-java-yellow.svg)](https://github.com/hacknife) [![](https://img.shields.io/badge/JCenter-1.0.8-brightgreen.svg)](http://jcenter.bintray.com/com/hacknife/messagebus/) [![](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/hacknife) [![](https://img.shields.io/badge/license-apache--2.0-green.svg)](https://github.com/hacknife) [![](https://img.shields.io/badge/api-11+-green.svg)](https://github.com/hacknife)<br/><br/>
+MessageBus能在任何地方发送消息，在任何地方接受消息。
 ## 使用说明
 在接受消息的地方必须注册MessageBus,不需要接受消息的时候反注册，否则会导致内存泄漏。
 ### 代码示例
@@ -50,23 +51,11 @@ MessageBus能在任何地方发送消息，在任何地方接受消息。[Englis
     }
 ```
 ## 如何配置
-将本仓库引入你的项目:
-### Step 1. 添加JitPack仓库到Build文件
-合并以下代码到项目根目录下的build.gradle文件的repositories尾。[点击查看详情](https://github.com/hacknife/CarouselBanner/blob/master/root_build.gradle.png)
-
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
-  
-### Step 2. 添加依赖
-合并以下代码到需要使用的application Module的dependencies尾。[点击查看详情](https://github.com/hacknife/CarouselBanner/blob/master/application_build.gradle.png)
+合并以下代码到需要使用Module的dependencies中
 ```Java
 	dependencies {
 	  ...
-          compile 'com.github.hacknife:messagebus:v1.0.6'
+          compile 'com.hacknife:messagebus:1.0.8'
 	}
 ```	
 <br><br><br>
