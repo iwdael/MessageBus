@@ -50,7 +50,7 @@ MessageBus能在任何地方发送消息，在任何地方接受消息。
         super.onDestroy();
     }
 ```
-## 如何配置
+## 快速引入项目
 合并以下代码到需要使用Module的dependencies中
 ```Java
 	dependencies {
